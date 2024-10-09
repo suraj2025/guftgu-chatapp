@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
    "scripts": {
-    "start": "node server.js",  // or your entry point file
-    "dev": "nodemon server.js"   // for development (if using nodemon)
+    "start": "node server.js", 
+    "dev": "nodemon server.js" 
   },
   "author": "",
   "license": "ISC",
