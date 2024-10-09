@@ -22,7 +22,9 @@ mongoose
   .catch((err) => {
     console.log(err.message);
   });
-
+app.get('/',(req,res)=>{
+  res.send(`<h1>Backend Server</h1>`)
+})
 app.get("/ping", (_req, res) => {
   return res.json({ msg: "Ping Successful" });
 });
