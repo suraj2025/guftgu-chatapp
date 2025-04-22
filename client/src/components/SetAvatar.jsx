@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import styled from "styled-components";
 import multiavatar from "@multiavatar/multiavatar/esm";
 import loader from "../assets/loader.gif";
